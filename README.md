@@ -18,3 +18,47 @@
 
 
 <p align="left"> <img src="https://scaler.com/topics/images/object-in-cpp.webp" alt="pijush364" /> </p>
+
+
+## Class Example
+
+```c++
+class ClassName
+{
+    Access specifier: 
+    Data members;
+    Member Functions()
+    {
+        // member function defintion
+    }
+};
+
+
+```
+
+### Let's take an example of a Dog class having data members breed and color followed by member functions
+
+```c++
+class Dog{                         // class ClassName
+    public:                        //Access specifiers
+        string breed, color;       //Data members
+
+        void displayColor(){       //Member functions
+            cout<<color<<" ";
+        }
+
+        void displayBreed(){
+            cout<<breed<<" ";
+        }
+};                                // end with semicolon
+
+```
+
+### Note:
+##### Access specifier defines how the members of the class can be accessed. In C++, there are 3 types of access specifiers: public, private, and protected.
+
+<ul>
+  <li><h3>Public :<h3/>members can be accessed outside the class</li>
+  <li><h3>private:<h3/>members cannot be accessed outside the class.</li>
+  <li><h3>Protected:<h3/>members cannot be accessed(viewed) from outside the class, but can be accessed in inherited classes(subclasses).</li>
+ </ul>
